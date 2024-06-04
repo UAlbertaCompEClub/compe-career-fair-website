@@ -14,7 +14,7 @@ function OverviewBlock() {
                     Networking is the <strong>best way</strong> to find a job - don’t miss this <em>amazing opportunity</em> to kickstart your career!
                     </p>
                     <p>   
-                    In 2023, the inaugural Aether (previously Career++) surpassed our expectations with an <strong>astonding 2000 participants!</strong> This year we are excited to introduce a virtual aspect on the 10th of October.
+                    In 2023, the inaugural Aether (previously Career++) surpassed our expectations with an <strong>astounding 1200 participants!</strong> This year we are excited to bring back the virtual aspect on the 10th of October and tentatively expect more than 2000 participants.
                     </p>
                     <h4 className="text-main">Reach the finish line by attending this tech-focused career fair to learn more about available 
                     internships, what each company and their recruitment process is like, and how to stand out as an applicant. </h4>
