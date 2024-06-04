@@ -12,11 +12,13 @@ var EventDateBlock = React.forwardRef((props, ref) => {
     navLinker(ref.current, props.setBlock, id);
   }, []);
  
+
+// TODO: update the company deadlines
   return (
     <div style={blockStyle()} className="block" id={id} ref={ref}>
       <div className="eventdate-block block-content">
         <h1 className="heading eventdate-heading">Dates</h1>
-        <h2 style={{paddingBottom: '10px'}}>Aether will take place on the 18th (virtual) and 19th (in-person) of January, 2024.</h2>
+        <h2 style={{paddingBottom: '10px'}}>Aether will take place on the 10th (virtual) and 11th (in-person) of October, 2024.</h2>
         <h2 style={{paddingBottom: '20px'}}>
           For companies, these are the following registration deadlines:
           <ul>
@@ -24,7 +26,7 @@ var EventDateBlock = React.forwardRef((props, ref) => {
             Early-Bird Discounted Pricing Deadline: October 20th, 5 pm MST
             </li>
             <li>
-            Final Deadline: December 15th, 5 pm MST
+            Final Deadline: September 26, 5 pm MST
             </li>
           </ul>
         </h2>

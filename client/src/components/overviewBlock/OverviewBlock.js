@@ -13,15 +13,15 @@ function OverviewBlock() {
                     Networking is the <strong>best way</strong> to find a job - don’t miss this <em>amazing opportunity</em> to kickstart your career!
                     </p>
                     <p>   
-                    In 2023, the inaugural Aether surpassed our expectations with an <strong>astonding 1000 participants!</strong> This year we are excited to introduce a virtual aspect on the 18th of January.
+                    In 2023, the inaugural Aether (previously Career++) surpassed our expectations with an <strong>astonding 1000 participants!</strong> This year we are excited to introduce a virtual aspect on the 10th of October.
                     </p>
                     <h4 className="text-main">Reach the finish line by attending this tech-focused career fair to learn more about available 
                     internships, what each company and their recruitment process is like, and how to stand out as an applicant. </h4>
                 </div>
                 <div className="overview-text gradient-border-padded" id="overview-text">
                     <h3 className="text-main">
-                        Aether will run from <em>10:00 AM to 3:00 PM virtually </em> on January 18th (more details closer to!!) and from <em>11:00 AM to 3:00 PM </em>
-                        on the 19th, tentatively in the Donadeo Innovation Center for Engineering at the University of Alberta North Campus</h3>
+                        Aether will run from <em>11:00 AM to 4:00 PM virtually </em> on October 10th (more details closer to!!) and from <em>12:00 PM to 6:00 PM </em>
+                        on October 11th, tentatively in the Donadeo Innovation Center for Engineering at the University of Alberta North Campus</h3>
                 </div>
             </div>
         </div>
