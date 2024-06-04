@@ -13,7 +13,6 @@ var EventDateBlock = React.forwardRef((props, ref) => {
   }, []);
  
 
-// TODO: update the company deadlines
   return (
     <div style={blockStyle()} className="block" id={id} ref={ref}>
       <div className="eventdate-block block-content">
@@ -23,10 +22,10 @@ var EventDateBlock = React.forwardRef((props, ref) => {
           For companies, these are the following registration deadlines:
           <ul>
             <li>
-            Early-Bird Discounted Pricing Deadline: October 20th, 5 pm MST
+            Early-Bird Discounted Pricing Deadline: July 20th, 5 pm MST
             </li>
             <li>
-            Final Deadline: September 26, 5 pm MST
+            Final Deadline: September 30, 5 pm MST
             </li>
           </ul>
         </h2>
