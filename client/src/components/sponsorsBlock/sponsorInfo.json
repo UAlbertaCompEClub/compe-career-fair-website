@@ -2,7 +2,7 @@
     "sponsors": [
       {
         "companyName": "Tech Innovators Inc.",
-        "sponsorLevel": "Platinum",
+        "tier": "Platinum",
         "industry": "Software Development",
         "contactPerson": {
           "name": "Jane Smith",
@@ -19,7 +19,7 @@
       },
       {
         "companyName": "Green Energy Solutions",
-        "sponsorLevel": "Gold",
+        "tier": "Gold",
         "industry": "Renewable Energy",
         "contactPerson": {
           "name": "John Doe",
@@ -36,7 +36,7 @@
       },
       {
         "companyName": "Future Tech Labs",
-        "sponsorLevel": "Silver",
+        "tier": "Silver",
         "industry": "Artificial Intelligence",
         "contactPerson": {
           "name": "Alice Johnson",
@@ -53,7 +53,7 @@
       },
       {
         "companyName": "NextGen Robotics",
-        "sponsorLevel": "Bronze",
+        "tier": "Bronze",
         "industry": "Robotics",
         "contactPerson": {
           "name": "Bob Brown",

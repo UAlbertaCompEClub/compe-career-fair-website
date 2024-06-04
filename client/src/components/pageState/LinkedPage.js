@@ -7,6 +7,7 @@ import PrevCareerFairBlock from '../aboutUs/PrevCareerFairBlock';
 import OverviewBlock from '../overviewBlock/OverviewBlock';
 import EventDateBlock from '../eventDateBlock/EventDateBlock';
 import FaqBlock from '../faqBlock/FaqBlock';
+import SponsorTiles from '../sponsorsBlock/SponsorTiles';
 
 class LinkedPage extends Component {
     constructor(props) {
@@ -16,6 +17,7 @@ class LinkedPage extends Component {
         this.landingBlockRef = React.createRef();
         this.aboutUsBlockRef = React.createRef();
         this.faqBlockRef = React.createRef();
+        this.sponsorBlockRef = React.createRef();
     };
 
     state = {
@@ -32,6 +34,7 @@ class LinkedPage extends Component {
                 <EventDateBlock ref={this.eventDatesBlockRef} setBlock={this.setVisibleBlock} />
                 <AboutUsBlock ref={this.aboutUsBlockRef} setBlock={this.setVisibleBlock} />
                 <PrevCareerFairBlock/>
+                <SponsorTiles ref={this.sponsorBlockRef} setBlock={this.setVisibleBlock}/>
                 <FaqBlock ref={this.faqBlockRef} setBlock={this.setVisibleBlock} />
                 <SocialsBlock />
             </>
