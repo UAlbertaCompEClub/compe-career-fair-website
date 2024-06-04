@@ -8,12 +8,13 @@ function OverviewBlock() {
                 <div className="overview-text" id="overview-text">
                     <h2 className="colored-text">Are you ready to land a tech internship or fulltime position for Summer 2024?</h2>
                     <h3 className="text-main">Simplify your job search journey through Aether!</h3>
+                    <p>Aether is a tech conference and career fair with both in-person and virtual components for both software and hardware topics.</p>
                     <p>   
                     At Aether, <strong>expand your network</strong> by connecting with recruiters and industry professionals from companies looking to fill tech related internship positions. 
                     Networking is the <strong>best way</strong> to find a job - don’t miss this <em>amazing opportunity</em> to kickstart your career!
                     </p>
                     <p>   
-                    In 2023, the inaugural Aether (previously Career++) surpassed our expectations with an <strong>astonding 1000 participants!</strong> This year we are excited to introduce a virtual aspect on the 10th of October.
+                    In 2023, the inaugural Aether (previously Career++) surpassed our expectations with an <strong>astonding 2000 participants!</strong> This year we are excited to introduce a virtual aspect on the 10th of October.
                     </p>
                     <h4 className="text-main">Reach the finish line by attending this tech-focused career fair to learn more about available 
                     internships, what each company and their recruitment process is like, and how to stand out as an applicant. </h4>
