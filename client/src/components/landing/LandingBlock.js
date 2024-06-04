@@ -19,8 +19,8 @@ var LandingBlock = React.forwardRef((props, ref) => {
                 <div className="landing-overlay">
                     <div className="landing-text text-main" id="landing-text">
                         <div className='landing-logo-container'>
-                            <h1 className='main-heading faded text-main'>Career</h1>
-                            <h1 className='main-heading faded gradient-header'>++</h1>
+                            <h1 className='main-heading faded text-main'>Aether</h1>
+                            <h1 className='main-heading faded gradient-header'></h1>
                         </div>
                         <h2 className='sub-heading faded text-main'>Presented by the Computer Engineering Club</h2>
                         <h3 className='faded colored-text'>January 18th - 19th, 2024</h3>
