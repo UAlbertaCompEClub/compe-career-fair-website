@@ -7,7 +7,7 @@ import PrevCareerFairBlock from '../aboutUs/PrevCareerFairBlock';
 import OverviewBlock from '../overviewBlock/OverviewBlock';
 import EventDateBlock from '../eventDateBlock/EventDateBlock';
 import FaqBlock from '../faqBlock/FaqBlock';
-import SponsorTiles from '../sponsorsBlock/SponsorTiles';
+import SponsorTiles from '../sponsorsBlock/sponsorBlock';
 
 class LinkedPage extends Component {
     constructor(props) {
