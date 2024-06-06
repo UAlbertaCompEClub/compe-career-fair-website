@@ -5,7 +5,7 @@ import navLinker from '../pageState/observer/navLinker';
 import '../Block.css'
 import './sponsorBlock.css'
 
-const SponsorTiles = React.forwardRef((props, ref) => {
+const sponsorBlock = React.forwardRef((props, ref) => {
     var id = "sponsorBlock";
     useEffect(() => {
         navLinker(ref.current, props.setBlock, id);
@@ -42,7 +42,9 @@ const SponsorTiles = React.forwardRef((props, ref) => {
 
 const SponsorSection = ({tier, sponsors}) => (
     <div className={`sponsor-section ${tier.toLowerCase()}`}>
-        <h2>{tier} Sponsors</h2>
+        {(tier=='Community')
+        ?(<h2>{tier} Partners</h2>)
+        :(<h2>{tier} Sponsors</h2>)}
         <div className='sponsor-cards'>
             {sponsors.map((sponsor) => (
                 <SponsorCard key={sponsor.name} sponsor={sponsor}/>
@@ -68,4 +70,4 @@ const SponsorCard = ({sponsor}) => (
     </div>
 );
 
-export default SponsorTiles
+export default sponsorBlock
