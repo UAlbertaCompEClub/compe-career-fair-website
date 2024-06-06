@@ -77,7 +77,6 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    background-color: transparent; /* Remove background by default */
 }
 
 .sponsor-card:hover .sponsor-info .logo-name {
@@ -114,7 +113,7 @@
     }
     
     .sponsor-card {
-        width: 90%; /* Adjust width for mobile view */
+        width: 90%;
         margin: 1em 0;
     }
     

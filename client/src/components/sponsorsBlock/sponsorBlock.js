@@ -21,19 +21,21 @@ const SponsorTiles = React.forwardRef((props, ref) => {
     }
 
     const groupedSponsors = groupBySponsorTitle(sponsorData.sponsors);
-    
-    if (groupedSponsors === undefined || groupedSponsors.length === 0) {
-        
+    let visible = true;
+    if (Object.keys(groupedSponsors).length === undefined || Object.keys(groupedSponsors).length === 0) {
+        visible = false;
     }
 
     return (
         <div style={blockStyle()} className="block" id={id} ref={ref}>
-            <div className="sponsorBlock">
+            {(!visible)
+            ?(<></>)
+            :(<div className="sponsorBlock">
                 <h1 className='sponsorBlockHeading heading'>We couldn't have done this event without...</h1>
                 {Object.keys(groupedSponsors).map( (tier) => (
                     <SponsorSection key={tier} tier={tier} sponsors={groupedSponsors[tier]}/>
                 ))}
-            </div>
+            </div>)}
         </div>
     )
 });

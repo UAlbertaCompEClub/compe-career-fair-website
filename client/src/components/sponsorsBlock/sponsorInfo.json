@@ -1,83 +1,12 @@
 {
     "sponsors": [
-      {
-        "name": "Tech Innovators Inc.",
-        "tier": "Title",
-        "industry": "Software Development",
-        "contactPerson": {
-          "name": "Jane Smith",
-          "email": "jane.smith@techinnovators.com",
-          "phone": "+1-800-123-4567"
-        },
-        "boothNumber": "A1",
-        "website": "https://www.techinnovators.com",
-        "socialMedia": {
-          "linkedin": "https://www.linkedin.com/company/tech-innovators",
-          "twitter": "https://twitter.com/techinnovators"
-        },
-        "logo": "/sponsorLogos/sample.jpg",
-        "description": "Tech Innovators Inc. is a leading software development company specializing in innovative solutions for the tech industry. We are committed to fostering growth and providing cutting-edge technologies to our clients."
-      },
-      {
-        "name": "Green Energy Solutions",
-        "tier": "Gold",
-        "industry": "Renewable Energy",
-        "contactPerson": {
-          "name": "John Doe",
-          "email": "john.doe@greenenergy.com",
-          "phone": "+1-800-987-6543"
-        },
-        "boothNumber": "B2",
-        "website": "https://www.greenenergy.com",
-        "socialMedia": {
-          "linkedin": "https://www.linkedin.com/company/green-energy-solutions",
-          "twitter": "https://twitter.com/greenenergysol"
-        },
-        "logo":"/compE_purple.svg",
-        "description": "Green Energy Solutions is at the forefront of renewable energy technology, providing sustainable solutions to power the future. Join us in our mission to create a greener planet."
-      },
-      {
-        "name": "Future Tech Labs",
-        "tier": "Silver",
-        "industry": "Artificial Intelligence",
-        "contactPerson": {
-          "name": "Alice Johnson",
-          "email": "alice.johnson@futuretechlabs.com",
-          "phone": "+1-800-654-3210"
-        },
-        "boothNumber": "C3",
-        "website": "https://www.futuretechlabs.com",
-        "socialMedia": {
-          "linkedin": "https://www.linkedin.com/company/future-tech-labs",
-          "twitter": "https://twitter.com/futuretechlabs"
-        },
-        "logo":"/logo512.png",
-        "description": "Future Tech Labs is dedicated to advancing artificial intelligence and machine learning. Our innovations drive the future of technology, making the impossible possible."
-      },
-      {
-        "name": "NextGen Robotics",
-        "tier": "Silver",
-        "industry": "Robotics",
-        "contactPerson": {
-          "name": "Bob Brown",
-          "email": "bob.brown@nextgenrobotics.com",
-          "phone": "+1-800-321-9876"
-        },
-        "boothNumber": "D4",
-        "website": "https://www.nextgenrobotics.com",
-        "socialMedia": {
-          "linkedin": "https://www.linkedin.com/company/nextgen-robotics",
-          "twitter": "https://twitter.com/nextgenrobotics"
-        },
-        "logo":"https://c8.alamy.com/comp/2AH6RFF/real-estate-company-logo-design-template-blue-house-and-building-concept-construction-architecture-element-apartment-condo-rouded-window-shape-2AH6RFF.jpg",
-        "description": "NextGen Robotics is revolutionizing the robotics industry with our state-of-the-art technology and innovative solutions. Explore our cutting-edge products and see the future of robotics today."
-      },
-      {
-        "name":"test",
-        "tier":"Bronze",
-        "logo":"https://c8.alamy.com/comp/2AH6RFF/real-estate-company-logo-design-template-blue-house-and-building-concept-construction-architecture-element-apartment-condo-rouded-window-shape-2AH6RFF.jpg",
-        "description":"test test test"
-      }
+        {
+            "name":"test",
+            "tier":"Gold",
+            "description":"tes tes test",
+            "logo":"/sponsorLogos/sample.jpg",
+            "industry":"AI/ML"
+        }
     ]
   }
   
