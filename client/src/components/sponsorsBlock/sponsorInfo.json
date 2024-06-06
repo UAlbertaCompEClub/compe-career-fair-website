@@ -1,12 +1,5 @@
 {
     "sponsors": [
-        {
-            "name":"test",
-            "tier":"Gold",
-            "description":"tes tes test",
-            "logo":"/sponsorLogos/sample.jpg",
-            "industry":"AI/ML"
-        }
     ]
   }
   
