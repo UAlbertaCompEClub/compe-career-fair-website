@@ -28,7 +28,7 @@ var AboutUsBlock = React.forwardRef((props, ref) => {
                 </p>
                 <p>
                     While Aether is still somewhat new, our club has a history of running large-scale successful events. One of these events is HackED, <strong className="colored-text">Alberta’s largest student-run hackathons with over 700 participants</strong>, and a history stretching back over 10 years. 
-                    Additionally, at the inaugeral Aether (previously Career++) last year, we had an incredible participation rate of <strong className="colored-text">over 2000 students</strong> and received <strong className="colored-text">overwhelmingly positive feedback</strong> from the students and companies! 
+                    Additionally, at the inaugeral Aether (previously Career++) last year, we had an incredible participation rate of <strong className="colored-text">over 1000 students</strong> and received <strong className="colored-text">overwhelmingly positive feedback</strong> from the students and companies! 
                     Furthermore, many students successfully received internship or new grad job offers directly from this event!
                     The companies and organizations that attended last year are:
                     <ul>Servus Credit Union, DriveWyze, Inflexion Games, Technology Alberta, PCL, 

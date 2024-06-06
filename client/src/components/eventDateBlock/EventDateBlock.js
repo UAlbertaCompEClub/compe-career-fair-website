@@ -22,10 +22,10 @@ var EventDateBlock = React.forwardRef((props, ref) => {
           For companies, these are the following registration deadlines:
           <ul>
             <li>
-            Early-Bird Discounted Pricing Deadline: July 20th, 5 pm MST
+            Early-Bird Discounted Pricing Deadline: July 20th, 5 pm MDT
             </li>
             <li>
-            Final Deadline: September 30, 5 pm MST
+            Final Deadline: September 30, 5 pm MDT
             </li>
           </ul>
         </h2>
