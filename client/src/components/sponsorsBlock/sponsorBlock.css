@@ -40,7 +40,7 @@
 
 .sponsor-card img {
     width: auto;
-    height: 95%;
+    height: 70%;
     padding: 0.5em 0 0.5em 0;
     transition: transform 0.5s;
 }
@@ -49,8 +49,8 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 30%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
     color: white;
     text-align: center;
     transition: all 0.5s;
@@ -65,8 +65,7 @@
 }
 
 .sponsor-card:hover .sponsor-info {
-    transform: translateY(-100%);
-    background-color: rgba(0,0,0,0);
+    transform: translateY(-10em);
 }
 
 .sponsor-card:hover .sponsor-info .text {
@@ -80,8 +79,18 @@
 }
 
 .sponsor-card:hover .sponsor-info .logo-name {
-    top: 0;
+    top: 0.5em;
     transform: translateY(0);
+}
+
+.logo-name h3,
+.logo-name p{
+    margin: 0.25em;
+}
+
+.logo-name p{
+    color: rgb(175, 175, 175);
+    font-size: 0.9em;
 }
 
 .sponsor-site{
@@ -115,6 +124,18 @@
     .sponsor-card {
         width: 90%;
         margin: 1em 0;
+    }
+
+    .sponsor-card img{
+        height: 60%;
+    }
+
+    .sponsor-card .sponsor-info{
+        height: 40%;
+    }
+
+    .sponsor-card:hover .sponsor-info {
+        transform: translateY(-8em);
     }
     
     .sponsor-card .text {
