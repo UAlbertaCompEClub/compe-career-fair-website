@@ -1,0 +1,145 @@
+.sponsorBlock {
+    width: 100%;
+}
+
+.sponsorBlockHeading {
+    text-align: center;
+}
+
+.sponsor-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.sponsor-section h2{
+    font-size: 2em;
+}
+
+.sponsor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.sponsor-card {
+    position: relative;
+    width: 30em;
+    height: 15em;
+    overflow: hidden;
+    border: 2px solid darkorchid;
+    border-radius: 35px;
+    margin: 1em;
+    background-color: rgba(35, 22, 45, 1);
+    transition: transform 1s;
+}
+
+.sponsor-card:hover {
+    transform: scale(1.1);
+}
+
+.sponsor-card img {
+    width: auto;
+    height: 70%;
+    padding: 0.5em 0 0.5em 0;
+    transition: transform 0.5s;
+}
+
+.sponsor-card .sponsor-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.sponsor-card .sponsor-info .text {
+    display: none;
+}
+
+.sponsor-card:hover img {
+    transform: translateY(-100%);
+}
+
+.sponsor-card:hover .sponsor-info {
+    transform: translateY(-10em);
+}
+
+.sponsor-card:hover .sponsor-info .text {
+    display: block;
+}
+
+.sponsor-card .sponsor-info .logo-name {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sponsor-card:hover .sponsor-info .logo-name {
+    top: 0.5em;
+    transform: translateY(0);
+}
+
+.logo-name h3,
+.logo-name p{
+    margin: 0.25em;
+}
+
+.logo-name p{
+    color: rgb(175, 175, 175);
+    font-size: 0.9em;
+}
+
+.sponsor-site{
+    width: 100%;
+    height: 100%;
+}
+
+.title h2{
+    color: darkorchid;
+}
+
+.gold h2 {
+    color: goldenrod;
+}
+
+.silver h2 {
+    color: silver;
+}
+
+.bronze h2 {
+    color: rgb(120, 78, 23);
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .sponsor-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sponsor-card {
+        width: 90%;
+        margin: 1em 0;
+    }
+
+    .sponsor-card img{
+        height: 60%;
+    }
+
+    .sponsor-card .sponsor-info{
+        height: 40%;
+    }
+
+    .sponsor-card:hover .sponsor-info {
+        transform: translateY(-8em);
+    }
+    
+    .sponsor-card .text {
+        font-size: 0.75em;
+        margin: 0.5em;
+    }
+}
