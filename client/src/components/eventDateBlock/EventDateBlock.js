@@ -19,7 +19,7 @@ var EventDateBlock = React.forwardRef((props, ref) => {
         <h1 className="heading eventdate-heading">Dates</h1>
         <h2 style={{paddingBottom: '10px'}}>Aether will take place on the 10th (virtual) and 11th (in-person) of October, 2024.</h2>
         <h2 style={{paddingBottom: '20px'}}>
-          For companies, these are the following registration deadlines:     
+          For companies, the registration deadlines are as follows:     
         </h2>
         <p>
           <ul>
