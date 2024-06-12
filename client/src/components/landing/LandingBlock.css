@@ -108,7 +108,7 @@
     .landing-img {
         object-fit: cover;
         margin-left: -30vw;
-        margin-top: -60vh;
-        height: 80vh;
+        margin-top: 0vh;
+        height: 75vh;
     }
 }
