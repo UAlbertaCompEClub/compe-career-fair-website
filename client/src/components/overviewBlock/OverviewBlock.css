@@ -43,9 +43,7 @@
     margin-top: -20vh;
 
     border-radius: 50%;
-    /* animation: rotation 200s infinite linear; */
     z-index: 5;
-    /* margin-left: 5vw; */
 }
 
 .overview-text {
@@ -53,17 +51,12 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    /* margin-top: 0%; */
     z-index: 2;
 }
 
 .main-heading {
     font-size: 10vh;
-    /* display: flex; */
     margin-bottom: 0;
-    /* margin: auto; */
-    /* margin-left: 10%; */
-    /* text-align: center; */
 }
 
 .sub-heading {
@@ -84,6 +77,27 @@
 
 .desc-link:hover {
     filter: invert(48%) sepia(6%) saturate(6%) hue-rotate(329deg) brightness(102%) contrast(89%);
+}
+
+.gradient-border, .gradient-border-padded {
+    background: -moz-linear-gradient(center bottom, #8b2fc4 0%, #a600de 34%, #f55fff 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #7300ba), color-stop(0.33, #a600de), color-stop(1, #f55fff));
+
+    background-origin: border-box;
+    -moz-background-origin: border;
+
+    border: 8px solid transparent;
+    border-radius: 35px;
+    box-shadow: inset 1000vw 0 0 #000;
+    
+    border-radius: 35px;
+}
+
+.gradient-border-padded {
+    padding: 2rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 @media screen and (max-aspect-ratio: 6/5)
