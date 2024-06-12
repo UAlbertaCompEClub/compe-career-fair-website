@@ -14,29 +14,20 @@
 
     max-height: 100%;
     justify-content: center;
-    line-height: 2.5em;
-    /* margin-left: 0;
-    margin-right: 10vw; */
+    line-height: 2em;
 }
 
 .overview-img-container {
     background-color: white;
     width: 40%;
     height: 100%;
-    /* margin-left: 0; */
-    /* padding: 0; */
     overflow: hidden;
     margin: auto;
-    /* margin-right: 0; */
 }
 
 .overview-img {
-    /* width: 35vw;
-    height: 35vw; */
-
     width: 130vh;
     height: 130vh;
-    /* display: flex; */
     object-fit: cover;
     margin: auto;
     margin-left: 0;

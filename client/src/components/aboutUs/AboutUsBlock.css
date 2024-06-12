@@ -7,12 +7,18 @@
     z-index: 2;
 }
 
+.about-us-text p{
+    line-height: 2em;
+}
+
 .main-heading {
     font-size: 10vh;
     margin-bottom: 0;
+    text-align: center;
 }
 
-.sub-heading {
+.sub-heading-about-us {
+    text-align: center;
     margin-top: 0;
     font-size: 3vh;
     margin-bottom: 0;
