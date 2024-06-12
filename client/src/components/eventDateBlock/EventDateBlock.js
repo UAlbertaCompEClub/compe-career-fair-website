@@ -19,17 +19,19 @@ var EventDateBlock = React.forwardRef((props, ref) => {
         <h1 className="heading eventdate-heading">Dates</h1>
         <h2 style={{paddingBottom: '10px'}}>Aether will take place on the 10th (virtual) and 11th (in-person) of October, 2024.</h2>
         <h2 style={{paddingBottom: '20px'}}>
-          For companies, these are the following registration deadlines:
+          For companies, the registration deadlines are as follows:     
+        </h2>
+        <p>
           <ul>
             <li>
             Early-Bird Discounted Pricing Deadline: July 20th, 5 pm MDT
             </li>
             <li>
-            Final Deadline: September 30, 5 pm MDT
+            Final Deadline: September 30th, 5 pm MDT
             </li>
           </ul>
-        </h2>
-        <h3 className='colored-text'>Note, students do NOT need to register to attend Aether. However, we will create an optional eventbrite in a bit so that we can collect resumes to share with any companies interested in them.
+        </p>
+        <h3 className='colored-text'>Note, students do NOT need to register to attend Aether. However, we will create an optional eventbrite closer to the event so that we can collect resumes to share with any companies interested in them.
         This info will be shared on our <a href="https://discord.gg/Dgd4hXA4eP" target="_blank" rel="noopener noreferrer">discord</a> - join if you haven't already! </h3>
       </div>
     </div>
