@@ -1,0 +1,22 @@
+[
+    {
+        "day": "October 10th - Virtual",
+        "events": [
+            { "time": "11:00 AM", "event": "Info Sessions (30 min each)" },
+            { "time": "01:00 PM", "event": "Recruiting 1-on-1 Sessions (5 min each)" },
+            { "time": "02:30 PM", "event": "Break" },
+            { "time": "03:00 PM", "event": "Recruiting 1-on-1 Sessions (5 min each)" },
+            { "time": "04:00 PM", "event": "End of event" }
+        ]
+    },
+    {
+        "day": "October 11th - In Person",
+        "events": [
+            { "time": "12:00 PM", "event": "Silver Sponsor Workshops (1 hour, simultaneous)" },
+            { "time": "01:00 PM", "event": "Gold Sponsor Workshops (1 hour, simultaneous)" },
+            { "time": "02:00 PM", "event": "Title Sponsor Workshop (1 hour)" },
+            { "time": "03:00 PM", "event": "Career Fair with 30 minute workshops (3 hours)" },
+            { "time": "06:00 PM", "event": "End of event" }
+        ]
+    }
+]
