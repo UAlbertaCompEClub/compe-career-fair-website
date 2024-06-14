@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import blockStyle from '../Block';
-import { EventDateEntry } from './eventDateSegment/EventDateEntry';
 import navLinker from "../pageState/observer/navLinker";
 import "./EventDateBlock.css";
 import '../Block.css'

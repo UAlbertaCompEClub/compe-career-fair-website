@@ -1,10 +1,7 @@
 import React from 'react';
-import { GradientImgUnbordered } from '../../commons/gradient/GradientImg';
 import instagramIcon from "../../socials/instagram.svg";
 import webIcon from "../../socials/web.svg";
 import emailIcon from "../../socials/mail.svg";
-
-import blockStyle from '../Block';
 import '../Block.css';
 import './SocialsBlock.css'
 
@@ -15,7 +12,6 @@ function SocialsBlock() {
           <p className="footer-text unecessary-footer-text">Built with React</p>
           <p className="divider">|</p>
           <p className="footer-text">Property of Computer Engineering Club</p>
-          {/* <p className="footer-text">Property Muhammad Fiaz</p> */}
           <p className="divider">|</p>
 
           <div className="socials-content">

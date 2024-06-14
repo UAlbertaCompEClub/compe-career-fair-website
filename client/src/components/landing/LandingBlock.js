@@ -1,11 +1,8 @@
 import React, { useEffect } from 'react';
-// import landingStyle from './Block';
 import './LandingBlock.css'
-import landingGraphic from './LandingGraphic.svg';
-import blob1 from './blob/blob.svg';
 import navLinker from "../pageState/observer/navLinker";
-import floater1 from './floaters/line.svg';
 import background from './background/background.svg';
+//removing this removes all the text styles so just gonna leave this for ease
 import GradientImg from '../../commons/gradient/GradientImg';
 
 var LandingBlock = React.forwardRef((props, ref) => {
@@ -26,7 +23,7 @@ var LandingBlock = React.forwardRef((props, ref) => {
                         <h3 className='faded colored-text'>October 10th - 11th, 2024</h3>
                     </div>
                     <div className='landing-img-container faded'>
-                        <GradientImg img={landingGraphic} className="landing-img" alt="Cool Graphic" />
+                        <img src='./aetherStarLogo.svg' className='landing-img'/>
                     </div>
                 </div>
                 <div className="landing-underlay">
