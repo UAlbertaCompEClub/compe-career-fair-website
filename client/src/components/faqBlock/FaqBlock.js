@@ -17,7 +17,7 @@ var FaqBlock = React.forwardRef((props, ref) => {
     <div style={blockStyle()} className="block" id={id} ref={ref}>
       <div className="faq-block">
         <h1 className="heading faq-heading">FAQs</h1>
-        <Stack direction='row' flexWrap="wrap" useFlexGap style={{justifyContent: "center"}}   spacing={{ xs: 3, sm: 5 }}>
+        <Stack direction='row' flexWrap="no-wrap" useFlexGap style={{justifyContent: "center"}} className='faqStack'   spacing={{ xs: 3, sm: 5 }}>
             {Object.keys(data).map(header => (
                 <div style={{height: "fit-content" }}>
                 <h2 className="faq-section-header text-main colored-text" style={{width: "100%"}}>{header}</h2>

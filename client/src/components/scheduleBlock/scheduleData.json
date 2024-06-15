@@ -2,21 +2,21 @@
     {
         "day": "October 10th - Virtual",
         "events": [
-            { "time": "11:00 AM", "event": "Info Sessions (30 min each)" },
-            { "time": "01:00 PM", "event": "Recruiting 1-on-1 Sessions (5 min each)" },
+            { "time": "11:00 AM", "event": "Company presentations will be held for 30 minutes each." },
+            { "time": "01:00 PM", "event": "Recruiting 1-on-1 sessions will take place, lasting 5 minutes each." },
             { "time": "02:30 PM", "event": "Break" },
-            { "time": "03:00 PM", "event": "Recruiting 1-on-1 Sessions (5 min each)" },
-            { "time": "04:00 PM", "event": "End of event" }
+            { "time": "03:00 PM", "event": "Recruiting 1-on-1 sessions will resume, lasting 5 minutes each." },
+            { "time": "04:00 PM", "event": "End of Event" }
         ]
     },
     {
         "day": "October 11th - In Person",
         "events": [
-            { "time": "12:00 PM", "event": "Silver Sponsor Workshops (1 hour, simultaneous)" },
-            { "time": "01:00 PM", "event": "Gold Sponsor Workshops (1 hour, simultaneous)" },
-            { "time": "02:00 PM", "event": "Title Sponsor Workshop (1 hour)" },
-            { "time": "03:00 PM", "event": "Career Fair with 30 minute workshops (3 hours)" },
-            { "time": "06:00 PM", "event": "End of event" }
+            { "time": "12:00 PM", "event": "Silver Sponsor workshops will be held simultaneously for one hour." },
+            { "time": "01:00 PM", "event": "Gold Sponsor workshops will be held simultaneously for one hour." },
+            { "time": "02:00 PM", "event": "The Title Sponsor workshop will take place for one hour." },
+            { "time": "03:00 PM", "event": "A career fair with 30-minute workshops will be held for three hours." },
+            { "time": "06:00 PM", "event": "End of Event" }
         ]
     }
 ]

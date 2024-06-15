@@ -1,5 +1,5 @@
 .stack {
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: center;
   justify-content: center;
@@ -10,12 +10,9 @@
 }
 
 .schedule-table {
-  padding: 3em;
-  width: 80%;
+  width: 100%;
   margin: auto;
-  font-family: Arial, sans-serif;
-  color: #fff;
-  background: linear-gradient(135deg, #a862c6 0%, #b549b5 100%);
+  background: linear-gradient(135deg, #8b2fc4 0%, #a600de 50%, #f55fff 100%);
   border-radius: 2em;
   display: flex;
   justify-content: space-between;
@@ -25,7 +22,7 @@
 .schedule-table h2 {
   text-align: center;
   color: #fff;
-  padding: 1em;
+  padding: 0.5em;
   border-bottom: 2px solid #fff;
   margin-bottom: 0.8em;
   font: 1000;
@@ -73,13 +70,8 @@
   justify-content: left;
 }
 
-h3 {
+.stack h3 {
   text-align: start;
-}
-
-.registration-text{
-  width: 80%;
-  margin: auto;
 }
 
 @media (max-width: 768px) {
@@ -87,12 +79,20 @@ h3 {
     width: 100%;
   }
 
+  .registration-text{
+    width:95%;
+    padding: 1em;
+  }
+
+  #schedule-block{
+    width:100%;
+    padding: 0 !important;
+  }
+
   .schedule-table {
     flex-direction: column;
-    margin: auto;
-    padding-top: 0;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    width: 95%;
+    padding: 0.5em;
   }
 
   .day-schedule {

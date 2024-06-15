@@ -32,9 +32,13 @@
     margin-top: 10vh;
     display: -webkit-flex;
     display: flex;
+    flex-wrap: wrap;
     -webkit-flex-direction: column-reverse;
     flex-direction: column-reverse; 
     /* height: 60vh; */
+   }
+   .faqStack{
+    flex-wrap: wrap;
    }
   .faq-section {
     text-align: center;
