@@ -39,10 +39,11 @@
 .day-schedule:not(:last-child)::after {
   content: '';
   position: absolute;
-  top: 0;
+  top: 1em;
   right: 0;
-  bottom: 0;
+  bottom: 1em;
   width: 0.5em;
+  border-radius: 5000px;
   background-color: #d4d4d4;
 }
 
