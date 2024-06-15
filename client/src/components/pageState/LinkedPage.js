@@ -5,7 +5,7 @@ import SocialsBlock from '../socialsBlock/SocialsBlock';
 import AboutUsBlock from '../aboutUs/AboutUsBlock';
 import PrevCareerFairBlock from '../aboutUs/PrevCareerFairBlock';
 import OverviewBlock from '../overviewBlock/OverviewBlock';
-import EventDateBlock from '../eventDateBlock/EventDateBlock';
+import ScheduleBlock from '../scheduleBlock/scheduleBlock';
 import FaqBlock from '../faqBlock/FaqBlock';
 import SponsorTiles from '../sponsorsBlock/sponsorBlock';
 
@@ -13,7 +13,7 @@ class LinkedPage extends Component {
     constructor(props) {
         super(props);
         this.myRef = React.createRef();
-        this.eventDatesBlockRef = React.createRef();
+        this.scheduleBlockRef = React.createRef();
         this.landingBlockRef = React.createRef();
         this.aboutUsBlockRef = React.createRef();
         this.faqBlockRef = React.createRef();
@@ -31,7 +31,7 @@ class LinkedPage extends Component {
                 <NavBar visibleBlock={this.state.visibleBlock} />
                 <LandingBlock ref={this.landingBlockRef} setBlock={this.setVisibleBlock} height={95} />
                 <OverviewBlock />
-                <EventDateBlock ref={this.eventDatesBlockRef} setBlock={this.setVisibleBlock} />
+                <ScheduleBlock ref={this.scheduleBlockRef} setBlock={this.setVisibleBlock} />
                 <AboutUsBlock ref={this.aboutUsBlockRef} setBlock={this.setVisibleBlock} />
                 <PrevCareerFairBlock/>
                 <SponsorTiles ref={this.sponsorBlockRef} setBlock={this.setVisibleBlock}/>

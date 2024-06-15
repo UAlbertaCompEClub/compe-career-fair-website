@@ -14,7 +14,7 @@ var NavBar = ({visibleBlock}) => {
       <div className="nav-content">
         <ul className="nav-items">
           <NavBarEntry visibleBlock={visibleBlock} blockId="landing-block" text="Home" />
-          <NavBarEntry visibleBlock={visibleBlock} blockId="eventdate-block" text="Dates" />
+          <NavBarEntry visibleBlock={visibleBlock} blockId="schedule-block" text="Schedule" />
           <NavBarEntry visibleBlock={visibleBlock} blockId="about-us-block" text="About" />
           <NavBarEntry visibleBlock={visibleBlock} blockId="sponsorBlock" text="Sponsors" />
           <NavBarEntry visibleBlock={visibleBlock} blockId="faq-block" text="FAQ" />
