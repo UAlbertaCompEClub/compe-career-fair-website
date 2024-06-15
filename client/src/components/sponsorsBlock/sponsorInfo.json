@@ -1,37 +1,5 @@
 {
     "sponsors": [
-        {
-            "name": "Tech Innovators Inc.",
-            "tier": "Title",
-            "industry": "Software Development",
-            "description": "Tech Innovators Inc. is a leading software development company specializing in innovative solutions for the tech industry. We are committed to fostering growth and providing cutting-edge technologies to our clients.",
-            "logo":"/sponsorLogos/[filename]",
-            "website": ""
-        },
-        {
-            "name": "Tech Innovators Inc.",
-            "tier": "Gold",
-            "industry": "Software Development",
-            "description": "Tech Innovators Inc. is a leading software development company specializing in innovative solutions for the tech industry. We are committed to fostering growth and providing cutting-edge technologies to our clients.",
-            "logo":"/sponsorLogos/[filename]",
-            "website": ""
-        },
-        {
-            "name": "Tech Innovators Inc.",
-            "tier": "Silver",
-            "industry": "Software Development",
-            "description": "Tech Innovators Inc. is a leading software development company specializing in innovative solutions for the tech industry. We are committed to fostering growth and providing cutting-edge technologies to our clients.",
-            "logo":"/sponsorLogos/[filename]",
-            "website": ""
-        },
-        {
-            "name": "Tech Innovators Inc.",
-            "tier": "Silver",
-            "industry": "Software Development",
-            "description": "Tech Innovators Inc. is a leading software development company specializing in innovative solutions for the tech industry. We are committed to fostering growth and providing cutting-edge technologies to our clients.",
-            "logo":"/sponsorLogos/[filename]",
-            "website": ""
-        }
     ]
   }
   
