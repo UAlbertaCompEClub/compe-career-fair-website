@@ -1,13 +1,8 @@
 import React, { useEffect } from 'react';
 import './AboutUsBlock.css';
+import '../Block.css'
+import blockStyle from '../Block';
 import navLinker from "../pageState/observer/navLinker";
-
-const aboutUsStyle = () => ({
-    display: 'flex',
-    'align-items': 'flex-start',
-    'overflow': 'hidden'
-}
-)
 
 var AboutUsBlock = React.forwardRef((props, ref) => {
     var id = "about-us-block";
@@ -15,7 +10,7 @@ var AboutUsBlock = React.forwardRef((props, ref) => {
         navLinker(ref.current, props.setBlock, id);
     }, []);
     return (
-        <div style={aboutUsStyle()} className="block" id={id} ref={ref}>
+        <div style={blockStyle()} className="block" id={id} ref={ref}>
             <div className="about-us-text" id="about-us-text" style={{paddingBottom: '10px'}}>
                 <h1 className='main-heading faded text-main'>About Us</h1>
                 <h2 className='sub-heading-about-us faded text-main colored-text'>The Computer Engineering Club</h2>
