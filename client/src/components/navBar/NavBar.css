@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width: 780px) {
+    body, html{
+        overflow-x: hidden;
+    }
     .nav{
         position: sticky;
     }
