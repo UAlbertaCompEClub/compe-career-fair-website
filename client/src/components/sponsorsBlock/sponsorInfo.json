@@ -6,18 +6,8 @@
             "industry": "",
             "description": "Tech Career North is a go-to hub for Canada's tech enthusiasts, students, and career changers with internships and entry level tech job postings manually curated DAILY. Join the server for your next opportunity and connect with peers nationwide in Canada!",
             "logo":"/sponsorLogos/tech_career_north_with_text_transparent.png",
-            "website": "https://discord.gg/96rkQyC5rX",
-            "contactPerson": {
-              "name": "Jane Smith",
-              "email": "jane.smith@techinnovators.com",
-              "phone": "+1-800-123-4567"
-            },
-            "boothNumber": "A1",
-            "socialMedia": {
-              "linkedin": "https://www.linkedin.com/company/tech-innovators",
-              "twitter": "https://twitter.com/techinnovators"
-            }
+            "website": "https://discord.gg/96rkQyC5rX"
         }
     ]
-  }
+}
   
