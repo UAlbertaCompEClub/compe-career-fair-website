@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 780px) {
     body, html{
-        overflow-x: hidden;
+        overflow-x: clip;
     }
     .nav{
         position: sticky;
@@ -84,9 +84,12 @@
     
     .hamburger-container{
         position: sticky;
-        justify-content: right;
     }
-
+    
+    .hamburger-container a{
+        display: flex;
+        align-items: center;
+    }
     .nav-content {
         opacity: 0;
         transform: translateX(100%);

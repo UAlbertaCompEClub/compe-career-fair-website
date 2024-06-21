@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
+import { IoMdClose } from "react-icons/io";
 import "./NavBar.css";
 
 var NavBar = ({ visibleBlock }) => {
@@ -25,7 +26,13 @@ var NavBar = ({ visibleBlock }) => {
           <img src='/aetherStarLogo.svg'></img>
         </div>
         <div className='hamburger-container'>
-          <a className='hamburger' onClick={toggleMenu}><RxHamburgerMenu /></a>
+          <a className='hamburger' onClick={toggleMenu}>
+            {
+              (isOpen)
+              ? <IoMdClose />
+              : <RxHamburgerMenu />
+            }
+          </a>
         </div>
       </div>
       <div className={`nav-content ${isOpen ? 'is-open' : ''}`}>
