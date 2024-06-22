@@ -143,3 +143,7 @@
         margin: 0.5em;
     }
 }
+
+.sponsorBlock, .sponsor-section, .sponsor-cards, .sponsor-card {
+    display: block !important;
+}
