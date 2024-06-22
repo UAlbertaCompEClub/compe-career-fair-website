@@ -56,10 +56,6 @@
     transition: all 0.5s;
 }
 
-.sponsor-card .sponsor-info .text {
-    display: none;
-}
-
 .sponsor-card:hover img {
     transform: translateY(-100%);
 }
