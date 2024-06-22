@@ -28,12 +28,12 @@ const sponsorBlock = React.forwardRef((props, ref) => {
 
     return (
         <div style={blockStyle()} className="block" id={id} ref={ref}>
-            {visible && (<div className="sponsorBlock">
+            <div className="sponsorBlock">
                 <h1 className='sponsorBlockHeading heading'>We couldn't have done this event without...</h1>
                 {Object.keys(groupedSponsors).map( (tier) => (
                     <SponsorSection key={tier} tier={tier} sponsors={groupedSponsors[tier]}/>
                 ))}
-            </div>)}
+            </div>
         </div>
     )
 });
