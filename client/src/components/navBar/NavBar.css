@@ -52,11 +52,9 @@
 }
 
 @media screen and (max-width: 780px) {
-    body, html{
-        overflow-x: clip;
-    }
     .nav{
         position: sticky;
+        overflow-x: clip;
     }
     .mobile-extra-nav{
         display: flex;
