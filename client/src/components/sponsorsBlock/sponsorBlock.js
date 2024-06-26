@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
-import sponsorData from './sponsorInfo.json'
+import React, { useEffect } from 'react';
+import sponsorData from './sponsorInfo.json';
 import blockStyle from '../Block';
 import navLinker from '../pageState/observer/navLinker';
-import '../Block.css'
-import './sponsorBlock.css'
+import '../Block.css';
+import './sponsorBlock.css';
 
 const sponsorBlock = React.forwardRef((props, ref) => {
     var id = "sponsorBlock";
