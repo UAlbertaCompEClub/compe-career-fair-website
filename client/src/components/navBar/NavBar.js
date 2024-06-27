@@ -41,6 +41,7 @@ var NavBar = ({ visibleBlock }) => {
           <NavBarEntry visibleBlock={visibleBlock} blockId="schedule-block" text="Schedule" />
           <NavBarEntry visibleBlock={visibleBlock} blockId="about-us-block" text="About" />
           <NavBarEntry visibleBlock={visibleBlock} blockId="sponsorBlock" text="Sponsors" />
+          <NavBarEntry visibleBlock={visibleBlock} blockId="attendeeBlock" text="Attendees" />
           <NavBarEntry visibleBlock={visibleBlock} blockId="faq-block" text="FAQ" />
         </ul>
       </div>

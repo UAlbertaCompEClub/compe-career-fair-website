@@ -1,0 +1,136 @@
+.attendee-card-block {
+    margin: auto;
+}
+
+.attendeeBlockHeading {
+    text-align: center;
+}
+
+.attendee-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.attendee-section h2{
+    font-size: 2em;
+}
+
+.attendee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.attendee-card {
+    position: relative;
+    width: 30em;
+    height: 15em;
+    overflow: hidden;
+    border: 2px solid darkorchid;
+    border-radius: 35px;
+    margin: 1em;
+    background-color: rgba(35, 22, 45, 1);
+    transition: transform 1s;
+}
+
+.attendee-card:hover {
+    transform: scale(1.1);
+}
+
+.attendee-card img {
+    width: auto;
+    height: 60%;
+    padding: 2em 0 0.5em 0;
+    transition: transform 0.5s;
+}
+
+.attendee-card .attendee-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.attendee-card .attendee-info .text {
+    display: none;
+}
+
+.attendee-card:hover img {
+    transform: translateY(-100%);
+}
+
+.attendee-card:hover .attendee-info {
+    transform: translateY(-10em);
+}
+
+.attendee-card:hover .attendee-info .text {
+    display: block;
+}
+
+.attendee-card .attendee-info .logo-name {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.attendee-card:hover .attendee-info .logo-name {
+    top: 0;
+    transform: translateY(0);
+}
+
+.attendee-info p{
+    margin-top: 0;
+}
+
+.logo-name h3,
+.logo-name p{
+    margin: 0.01em;
+}
+
+.logo-name p{
+    color: rgb(175, 175, 175);
+    font-size: 0.9em;
+}
+
+.attendee-site{
+    width: 100%;
+    height: 100%;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .attendee-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .attendeeBlockHeading{
+        font-size: 3em;
+    }
+    
+    .attendee-card {
+        width: 90%;
+        margin: 1em 0;
+    }
+
+    .attendee-card img{
+        height: 60%;
+    }
+
+    .attendee-card .attendee-info{
+        height: 40%;
+    }
+
+    .attendee-card:hover .attendee-info {
+        transform: translateY(-8em);
+    }
+    
+    .attendee-card .text {
+        font-size: 0.75em;
+        margin: 0 0.5em;
+    }
+}

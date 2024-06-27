@@ -11,18 +11,8 @@ const sponsorBlock = React.forwardRef((props, ref) => {
         navLinker(ref.current, props.setBlock, id);
     }, []);
 
-    function groupBySponsorTitle(sponsorArray) {
-        return sponsorArray.reduce((acc, sponsor) => {
-            if (!acc[sponsor.tier])
-                acc[sponsor.tier] = [];
-            acc[sponsor.tier].push(sponsor);
-            return acc;
-        }, {})
-    }
-
-    const groupedSponsors = groupBySponsorTitle(sponsorData.sponsors);
     let visible = true;
-    if (Object.keys(groupedSponsors).length === undefined || Object.keys(groupedSponsors).length === 0) {
+    if (Object.keys(sponsorData).length === 0) {
         visible = false;
     }
 
@@ -31,8 +21,8 @@ const sponsorBlock = React.forwardRef((props, ref) => {
             {
                 visible && <div className="sponsor-card-block">
                     <h1 className='sponsorBlockHeading heading'>We couldn't have done this event without...</h1>
-                    {Object.keys(groupedSponsors).map((tier) => (
-                        <SponsorSection key={tier} tier={tier} sponsors={groupedSponsors[tier]} />
+                    {Object.keys(sponsorData).map((tier) => (
+                        <SponsorSection key={tier} tier={tier} sponsors={sponsorData[tier]} />
                     ))}
                 </div>
             }
