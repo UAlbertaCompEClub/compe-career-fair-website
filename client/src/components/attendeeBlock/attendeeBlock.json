@@ -1,13 +1,4 @@
 {
-    "Physical":[
-        {
-            "name":"Inflexion Games",
-            "industry": "Game Development",
-            "logo":"/sponsorLogos/inflexiongameslogo.png",
-            "website":"https://www.inflexion.io/",
-            "description": "Inflexion Games is an innovative game studio headquartered in Edmonton, Alberta, Canada. We have a strong, diverse team who are committed to their craft. Why do we make games? The answer lies in our Purpose. Our first title, Nightingale, is available for early access on Steam and the Epic Games Store!"
-        }
-    ],
     "Virtual":[
         {
             "name": "Amazon AWS",
