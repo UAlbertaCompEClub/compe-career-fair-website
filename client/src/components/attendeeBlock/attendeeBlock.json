@@ -1,4 +1,14 @@
 {
+    "Physical":[
+        {
+            "name": "Nanostics",
+            "industry": "Medical",
+            "description": "Nanostics is a medical device and biotechnology company with a mission to provide clarity to people about their health by enabling better diagnosis and improving health care decisions through machine learning and extracellular vesicle detection",
+            "logo":"/sponsorLogos/NanosticsLogo.png",
+            "website": "https://www.nanosticsdx.com/"
+        }
+    ],
+
     "Virtual":[
         {
             "name": "Amazon AWS",
