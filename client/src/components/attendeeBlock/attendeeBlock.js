@@ -43,7 +43,9 @@ const AttendeeSection = ({attendenceMode, attendees}) => (
 const AttendeeCard = ({attendee}) => (
     <div className="attendee-card">
         <a href={attendee.website} className='attendee-site' target='_blank'>
-            <img src={attendee.logo} alt={`${attendee.name} company logo`}></img>
+            <div className="attendee-img-container">
+                <img src={attendee.logo} alt={`${attendee.name} company logo`}></img>
+            </div>
             <div className="attendee-info">
                 <div className='logo-name'>
                     <h3>{attendee.name}</h3>

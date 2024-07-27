@@ -46,7 +46,9 @@ const SponsorSection = ({ tier, sponsors }) => (
 const SponsorCard = ({ sponsor }) => (
     <div className="sponsor-card">
         <a href={sponsor.website} className='sponsor-site' target='_blank'>
-            <img src={sponsor.logo} alt={`${sponsor.name} company logo`}></img>
+            <div className='sponsor-img-container'>
+                <img src={sponsor.logo} alt={`${sponsor.name} company logo`}></img>
+            </div>
             <div className="sponsor-info">
                 <div className='logo-name'>
                     <h3>{sponsor.name}</h3>

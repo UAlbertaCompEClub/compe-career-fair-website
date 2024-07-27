@@ -2,7 +2,7 @@
     margin: auto;
 }
 
-.attendeeBlockHeading {
+.attendee-block-heading {
     text-align: center;
 }
 
@@ -38,10 +38,18 @@
     transform: scale(1.1);
 }
 
+.attendee-img-container{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+}
+
 .attendee-card img {
-    width: auto;
-    height: 60%;
-    padding: 2em 0 0.5em 0;
+    object-fit: contain;
+    width: 100%;
+    height:100%;
     transition: transform 0.5s;
 }
 
@@ -103,12 +111,16 @@
 
 /* Media query for mobile view */
 @media (max-width: 768px) {
+    .attendee-card-block{
+        width: 100%;
+    }
+
     .attendee-cards {
         flex-direction: column;
         align-items: center;
     }
 
-    .attendeeBlockHeading{
+    .attendee-block-heading{
         font-size: 3em;
     }
     
