@@ -25,7 +25,7 @@ class LinkedPage extends Component {
     state = {
         visibleBlock: ""
     };
-    setVisibleBlock = id => { this.setState({ visibleBlock: id })};
+    setVisibleBlock = id => { console.error("501 Not Implemented: The dynamic block rendering feature was making the site lag so it is no longer implemented") };
 
     render() {
         return (
