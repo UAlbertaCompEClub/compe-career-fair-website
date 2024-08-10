@@ -6,6 +6,13 @@
             "description": "Nanostics is a medical device and biotechnology company with a mission to provide clarity to people about their health by enabling better diagnosis and improving health care decisions through machine learning and extracellular vesicle detection",
             "logo":"/sponsorLogos/NanosticsLogo.png",
             "website": "https://www.nanosticsdx.com/"
+        },
+        {
+            "name": "Telus",
+            "industry": "Telecommunications",
+            "description": "TELUS is a dynamic, world-leading communications and technology company. With a strong focus on delivering innovative solutions, TELUS provides a wide range of services including wireless, data, IP, voice, television, entertainment, and video. TELUS is dedicated to improving the lives of its customers by connecting them to the people, information, and opportunities that matter most.",
+            "logo":"/sponsorLogos/TELUS.png",
+            "website": "https://www.telus.com/en/about/careers/graduate-technology-leadership-program"
         }
     ],
 
