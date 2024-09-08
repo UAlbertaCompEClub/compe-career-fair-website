@@ -21,8 +21,8 @@ function OverviewBlock() {
                 </div>
                 <div className="overview-text gradient-border-padded" id="overview-text">
                     <h3 className="text-main">
-                        Aether will run from <em>11:00 AM to 4:00 PM virtually </em> on October 10th and from <em>12:00 PM to 6:00 PM </em>
-                        on October 11th, tentatively in the Donadeo Innovation Center for Engineering at the University of Alberta North Campus. Additional information will be released closer to the event.</h3>
+                        Aether will run from <em>11:00 AM to 4:00 PM virtually </em> on November 21st and from <em>12:00 PM to 6:00 PM </em>
+                        on November 22nd, tentatively in the Donadeo Innovation Center for Engineering at the University of Alberta North Campus. Additional information will be released closer to the event.</h3>
                 </div>
             </div>
         </div>
