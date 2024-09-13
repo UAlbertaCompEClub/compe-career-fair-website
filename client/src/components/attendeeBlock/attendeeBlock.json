@@ -6,6 +6,20 @@
             "description": "Nanostics is a medical device and biotechnology company with a mission to provide clarity to people about their health by enabling better diagnosis and improving health care decisions through machine learning and extracellular vesicle detection",
             "logo":"/sponsorLogos/NanosticsLogo.png",
             "website": "https://www.nanosticsdx.com/"
+        },
+        {
+            "name": "Scription",
+            "industry": "Maintenance",
+            "description": "Scription offers the only end-to-end solution for pricing, selling, and managing subscription maintenance plans. We align incentives for foodservice and HVAC equipment repair & maintenance stakeholders. Our technology enables service providers to level up their capabilities while providing equipment operators with customized, hassle-free, stable, monthly fixed-price coverage for your equipment assets.",
+            "logo":"/sponsorLogos/scription.png",
+            "website": "https://www.scription.ai/"
+        },
+        {
+            "name": "Kepler Communications",
+            "industry": "Space Communications",
+            "description": "Kepler is on a mission to build the internet for space to provide real-time, continuous connectivity for space communications. Incorporated in 2015, the company is vertically integrated, designing and deploying a next-generation hybrid constellation equipped with RF and optical technology to modernize communications to missions in LEO and beyond.",
+            "logo":"/sponsorLogos/Kepler.png",
+            "website": "https://kepler.space/"
         }
     ],
 
