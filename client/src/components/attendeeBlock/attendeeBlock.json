@@ -20,7 +20,15 @@
             "description": "Kepler is on a mission to build the internet for space to provide real-time, continuous connectivity for space communications. Incorporated in 2015, the company is vertically integrated, designing and deploying a next-generation hybrid constellation equipped with RF and optical technology to modernize communications to missions in LEO and beyond.",
             "logo":"/sponsorLogos/Kepler.png",
             "website": "https://kepler.space/"
+        },
+        {
+            "name": "IEEE",
+            "industry": "Professional Organization",
+            "description": "IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities",
+            "logo":"/sponsorLogos/IEEE_logo.png",
+            "website": "https://www.ieee.org/"
         }
+
     ],
 
     "Virtual":[
