@@ -20,6 +20,13 @@
             "description": "IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities",
             "logo":"/sponsorLogos/IEEE_logo.png",
             "website": "https://www.ieee.org/"
+        },
+        {
+            "name": "Arista Networks",
+            "industry": "Cloud Networking",
+            "description": "Arista Networks is an industry leader in data-driven, client to cloud networking for large data center/AI, campus and routing environments. Arista’s award-winning platforms deliver availability, agility, automation, analytics and security through an advanced network operating stack.",
+            "logo":"/sponsorLogos/AristaLogoRgbL.png",
+            "website": "https://www.arista.com/en/careers/university"
         }
         
     ],
