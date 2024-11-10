@@ -1,6 +1,13 @@
 {
     "Physical":[
         {
+            "name": "Lantern",
+            "industry": "AI",
+            "description": "In the digital economy, success belongs to those who can harness the power of AI to drive innovation, efficiency, and growth. Lantern is here to guide you through this transformative journey to digital leadership. As a premier IT professional services firm, we specialize in helping organizations envision, implement and run Microsoft technologies to achieve AI excellence.",
+            "logo":"/sponsorLogos/lantern_logo.webp",
+            "website": "https://lanternstudios.com/"
+        },
+        {
             "name": "Nanostics",
             "industry": "Medical",
             "description": "Nanostics is a medical device and biotechnology company with a mission to provide clarity to people about their health by enabling better diagnosis and improving health care decisions through machine learning and extracellular vesicle detection",
@@ -32,6 +39,13 @@
     ],
     
     "Virtual":[
+        {
+            "name": "Lantern",
+            "industry": "AI",
+            "description": "In the digital economy, success belongs to those who can harness the power of AI to drive innovation, efficiency, and growth. Lantern is here to guide you through this transformative journey to digital leadership. As a premier IT professional services firm, we specialize in helping organizations envision, implement and run Microsoft technologies to achieve AI excellence.",
+            "logo":"/sponsorLogos/lantern_logo.webp",
+            "website": "https://lanternstudios.com/"
+        },
         {
             "name": "Amazon AWS",
             "industry": "Cloud Development",
