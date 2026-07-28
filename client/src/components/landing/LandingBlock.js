@@ -19,8 +19,8 @@ var LandingBlock = React.forwardRef((props, ref) => {
                             <h1 className='main-heading faded text-main'>Aether</h1>
                             <h1 className='main-heading faded gradient-header'></h1>
                         </div>
-                        <h2 className='sub-heading faded text-main'>Presented by the Computer Engineering Club and Lantern</h2>
-                        <h3 className='faded colored-text'>November 21st - 22nd, 2024</h3>
+                        <h2 className='sub-heading faded text-main'>Presented by the Computer Engineering Club</h2>
+                        <h3 className='faded colored-text'>September 25th - September 26th, 2026</h3>
                     </div>
                     <div className='landing-img-container faded'>
                         <img src='./aetherStarLogo.svg' className='landing-img'/>

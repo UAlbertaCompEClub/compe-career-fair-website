@@ -27,7 +27,7 @@ var AboutUsBlock = React.forwardRef((props, ref) => {
                     undergraduate students to employers and businesses</strong> in a way that is unprecedented on our campus: Aether
                 </p>
                 <p>
-                    While Aether is still somewhat new, last year we had an incredible participation 
+                    While Aether is still somewhat new, in 2024 we had an incredible participation 
                     rate of over 1000 students and received overwhelmingly positive feedback from the 
                     students and companies! Furthermore, many students successfully received internship 
                     or new grad job offers directly from this event! 

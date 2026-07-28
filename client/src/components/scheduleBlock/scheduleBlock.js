@@ -42,8 +42,8 @@ const RegistrationInfo = () => (
     <div className="registration-text">
         <h3>For companies, the registration dates are as follows:</h3>
         <ul>
-            <li><h3>Early-Bird Discounted Pricing Deadline: July 20th, 5 pm MDT</h3></li>
-            <li><h3> Final Deadline: November 10th, 5 pm MDT</h3></li>
+            <li><h3>Early-Bird Discounted Pricing Deadline: August 10th, 12 am MDT</h3></li>
+            <li><h3> Final Deadline: September 1st, 12 am MDT</h3></li>
         </ul>
         <h3 className="colored-text">
             Note, students do NOT need to register to attend Aether. However, we
