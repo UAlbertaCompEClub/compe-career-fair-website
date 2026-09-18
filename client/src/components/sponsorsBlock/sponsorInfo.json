@@ -1,36 +1,25 @@
 {
-    "Title": [
+    "Bronze": [
         {
-            "name": "Lantern",
+            "name": "Cybera",
             "industry": "AI",
-            "description": "In the digital economy, success belongs to those who can harness the power of AI to drive innovation, efficiency, and growth. Lantern is here to guide you through this transformative journey to digital leadership. As a premier IT professional services firm, we specialize in helping organizations envision, implement and run Microsoft technologies to achieve AI excellence.",
-            "logo":"/sponsorLogos/lantern_logo.webp",
-            "website": "https://lanternstudios.com/"
-        }
-    ],
-    "Silver": [
-        {
-            "name": "IEEE",
-            "industry": "Professional Organization",
-            "description": "IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities",
-            "logo":"/sponsorLogos/IEEE_logo.png",
-            "website": "https://www.ieee.org/"
-        }
-    ],
-    "Community": [
-        {
-            "name": "Tech Career North",
-            "industry": "",
-            "description": "Tech Career North is a go-to hub for Canada's tech enthusiasts, students, and career changers with internships and entry level tech job postings manually curated DAILY. Join the server for your next opportunity and connect with peers nationwide in Canada!",
-            "logo":"/sponsorLogos/tech_career_north_with_text_transparent.png",
-            "website": "https://discord.gg/96rkQyC5rX"
+            "description": "Cybera is Alberta's not-for-profit organization responsible for driving economic growth through the use of digital technology. Our core mandate is to oversee the development and operations of Alberta's cyberinfrastructure, the advanced system of networks and computers that keeps government, educators, not-for-profit organizations, and entrepreneurs at the forefront of technological change.",
+            "logo":"/sponsorLogos/cybera_logo_2.webp",
+            "website": "https://www.cybera.ca/"
         },
         {
-            "name": "Amazon AWS",
-            "industry": "Cloud Development",
-            "description": "Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.",
-            "logo":"/sponsorLogos/AWS_logo_RGB.svg",
-            "website": "https://aws.amazon.com/careers/"
+            "name": "Arista",
+            "industry": "Data ",
+            "description": "Arista Networks is an industry leader in data-driven, client-to-cloud networking for large data center, AI, campus, and routing environments. Our award-winning platforms deliver availability, agility, automation, analytics, and security through an advanced network operating stack, enabling organizations to build the infrastructure required for the AI era.",
+            "logo":"/sponsorLogos/AristaLogoRgbL.png",
+            "website": "https://www.arista.com/en/"
+        },
+        {
+            "name": "AIMco",
+            "industry": "Investment",
+            "description": "AIMCo (Alberta Investment Management Corporation) is a high-performing investment manager that identifies leading opportunities around the world and delivers consistent results. As one of Canada's largest and most diversified institutional investment managers, AIMCo is responsible for the investments of pension, endowment, insurance, and government funds in Alberta.",
+            "logo":"/sponsorLogos/AIMCo.webp",
+            "website": "https://www.aimco.ca/"
         }
     ]
 }

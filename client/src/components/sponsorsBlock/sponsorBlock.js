@@ -20,7 +20,7 @@ const sponsorBlock = React.forwardRef((props, ref) => {
         <div style={blockStyle()} className="block" id={id} ref={ref}>
             {
                 visible && <div className="sponsor-card-block">
-                    <h1 className='sponsorBlockHeading heading'>We couldn't have done this event without...</h1>
+                    <h1 className='sponsorBlockHeading heading'>Massive thanks to our sponsers...</h1>
                     {Object.keys(sponsorData).map((tier) => (
                         <SponsorSection key={tier} tier={tier} sponsors={sponsorData[tier]} />
                     ))}
@@ -32,7 +32,7 @@ const sponsorBlock = React.forwardRef((props, ref) => {
 
 const SponsorSection = ({ tier, sponsors }) => (
     <div className={`sponsor-section ${tier.toLowerCase()}`}>
-        {(tier == 'Community')
+        {(tier === 'Community')
             ? (<h2>{tier} Partners</h2>)
             : (<h2>{tier} Sponsors</h2>)}
         <div className='sponsor-cards'>

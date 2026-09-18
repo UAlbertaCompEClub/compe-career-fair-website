@@ -6,15 +6,8 @@
             { "time": "12:05 PM", "event": "Introductions and opening remarks." },
             { "time": "02:00 PM", "event": "Break" },
             { "time": "02:30 PM", "event": "Networking continues" },
-            { "time": "04:50 PM", "event": "Thanks and closing remarks" }
-        ]
-    },
-    {
-        "day": "September 26th - Virtual",
-        "events": [
-            { "time": "12:00 PM", "event": "Opening remarks and explanations and split to breakout rooms." },
-            { "time": "02:00 PM", "event": "Break" },
-            { "time": "03:00 PM", "event": "End of Event." }
+            { "time": "04:50 PM", "event": "Thanks and closing remarks" },
+            { "time": "05:00 PM", "event": "Take down" }
         ]
     }
 ]

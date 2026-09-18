@@ -46,16 +46,14 @@ const RegistrationInfo = () => (
             <li><h3> Final Deadline: September 1st, 12 am MDT</h3></li>
         </ul>
         <h3 className="colored-text">
-            Note, students do NOT need to register to attend Aether. However, we
-            will create an optional eventbrite closer to the event so that we
-            can collect resumes to share with any companies interested in them.
+            Students should use the link to register to attend Aether. This is completely for our records. 
             This info will be shared on our{" "}
             <a
                 href="https://discord.gg/Dgd4hXA4eP"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                discord
+                discord already
             </a>{" "}
             - join if you haven't already!
         </h3>
